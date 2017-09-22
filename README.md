@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # junit5-maven-consumer
 
 The `junit5-maven-consumer` project demonstrates how to execute tests based on JUnit 5
@@ -85,3 +86,7 @@ Maven Surefire writes plain text and XML test reports to `target/surefire-report
 ### Limitations
 
 Advanced Maven Surefire parameters, such as `forkCount` or `parallel`, do not work yet.
+=======
+# MavanJunit
+MavanJunit
+>>>>>>> b2c6404... Initial commit
