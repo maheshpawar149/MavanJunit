@@ -51,22 +51,18 @@
                </dependency>
             </dependencies>
          </plugin>
-         <build>
-            <plugins>
-               <plugin>
-                  <groupId>org.apache.maven.plugins</groupId>
-                  <artifactId>maven-surefire-plugin</artifactId>
+        
+         <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
                   <version>2.22.0</version>
                </plugin>
                <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
                   <artifactId>maven-failsafe-plugin</artifactId>
                   <version>2.22.0</version>
-               </plugin>
-            </plugins>
-         </build>
-      </plugins>
-   </build>
+               </plugin>           
+      
    <dependencies>
       <dependency>
          <groupId>org.junit.jupiter</groupId>
@@ -106,6 +102,7 @@
          <artifactId>junit-jupiter-api</artifactId>
          <version>5.4.2</version>
          <scope>test</scope>
-      </dependency>     
+      </dependency> 
+	   </dependencies>
 </project>
 
